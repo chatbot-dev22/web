@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #f4f4f4; /* Off-White */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.navbar-brand img {
+  height: 50px;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+  border: 2px solid #333333; /* Charcoal Gray */
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333333; /* Charcoal Gray */
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #6b8e23; /* Sage Green */
+  background-color: rgba(107, 142, 35, 0.1); /* Light Green Background */
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.75rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(107, 142, 35, 0.5); /* Muted Olive Glow */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #6b8e23; /* Sage Green */
+  background-color: rgba(107, 142, 35, 0.1); /* Light Green Background */
+  border-radius: 5px;
+}

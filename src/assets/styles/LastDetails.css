@@ -1,0 +1,72 @@
+.last-details {
+  background-color: #FAF3E0; /* Soft Ivory */
+  padding: 20px 0;
+  color: #3A5A40; /* Deep Olive Green */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(58, 90, 64, 0.3); /* Deep Olive Green with transparency */
+}
+
+.footer-logo .logo {
+  width: 100px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo .logo:hover {
+  transform: scale(1.1);
+  border-radius: 50%;
+}
+
+.footer-social a {
+  color: #3A5A40; /* Deep Olive Green */
+  text-decoration: none;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 18px;
+}
+
+.footer-social a:hover {
+  color: #B08846; /* Muted Gold */
+  transform: scale(1.1);
+}
+
+.social-icon {
+  margin-right: 8px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: #3A5A40; /* Deep Olive Green */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #B08846; /* Muted Gold */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid rgba(58, 90, 64, 0.3); /* Deep Olive Green with transparency */
+  padding-top: 10px;
+}
